@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FlappyComponent } from './flappy/flappy.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FlappyComponent
   ],
   imports: [
     BrowserModule,
